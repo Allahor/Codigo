@@ -4,8 +4,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-df = pd.read_csv('C:/Users/afgstofel/TbFinal 01/test.csv')
-df1 = pd.read_csv('C:/Users/afgstofel/TbFinal 01/train.csv')
+df = pd.read_csv('./test.csv')
+df1 = pd.read_csv('./train.csv')
 df.head()
 variaveis = df.columns
 print(variaveis)
@@ -160,8 +160,8 @@ y_pred = model.predict(X_test_scaled)
 rmse = mean_squared_error(y_test, y_pred, squared=False)
 print("RMSE:", rmse)
 # Carregar os conjuntos de dados
-df_test = pd.read_csv('C:/Users/afgstofel/TbFinal 01/test.csv')
-df_train = pd.read_csv('C:/Users/afgstofel/TbFinal 01/train.csv')
+df_test = pd.read_csv('./test.csv')
+df_train = pd.read_csv('./train.csv')
 
 # Adicionar coluna 'SalePrice' com valores nulos no conjunto de test
 df_test['SalePrice'] = None
@@ -177,8 +177,8 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Carregar o conjunto de dados de preços de casas
-df = pd.read_csv('C:/Users/afgstofel/TbFinal 01/test.csv')
-df1 = pd.read_csv('C:/Users/afgstofel/TbFinal 01/train.csv')
+df = pd.read_csv('./test.csv')
+df1 = pd.read_csv('./train.csv')
 
 # Separar as variáveis independentes (features) e a variável dependente (target)
 X = df.drop('preco', axis=1)
