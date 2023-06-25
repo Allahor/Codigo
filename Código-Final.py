@@ -1,5 +1,5 @@
-João Vithor Lordes Stem Machado
-ANDERSON FELLIPP GOMES STOFEL
+# João Vithor Lordes Stem Machado
+# ANDERSON FELLIPP GOMES STOFEL
 
 import pandas as pd
 import numpy as np
@@ -216,3 +216,10 @@ print("\nÁrvore de Decisão:")
 print("MSE:", mse_dt)
 print("MAE:", mae_dt)
 print("R2:", r2_dt)
+
+
+
+# REFERENCIAS: Pandas Python Data Wrangling para Ciência de Dados (Eduardo Corrêa) 
+# Mãos à Obra Aprendizado de Máquina com Scikit-Learn  TensorFlow (Aurélien Géron) 
+# https://www.kaggle.com/code/gusthema/house-prices-prediction-using-tfdf/notebook
+# GOOGLE E CHATGPT
