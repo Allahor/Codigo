@@ -1,3 +1,6 @@
+João Vithor Lordes Stem Machado
+ANDERSON FELLIPP GOMES STOFEL
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
